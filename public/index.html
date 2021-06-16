@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Weather App!</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Welcome to Weather App!</h1>
+    <div><a href="/">check in</a> | <a href="/checkins">view checkins</a></div>
+    <p>
+      The weather here in <span id="city"></span> at
+      <span id="latitude"></span>&deg;, <span id="longitude"></span>&deg;<em>
+        <span id="summary"></span> with a temperature of
+        <span id="temperature"></span> &deg;C.
+      </em>
+      The average concentration of particulate matter (pm25) is
+      <span id="pm25"></span>
+    </p>
+    <script src="./script.js"></script>
+  </body>
+</html>

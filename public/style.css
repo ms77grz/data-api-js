@@ -1,0 +1,9 @@
+p {
+  padding: 10px;
+  background-color: #ffaaff;
+}
+
+#mymap {
+  height: 80vh;
+  margin: 8px 0;
+}
